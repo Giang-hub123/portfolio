@@ -3,9 +3,9 @@ body {
 }
 
 header {
-    background-image: url('images/Background-img.svg');
+    /* background-image: url('images/Background-img.svg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
     height: 100vh;
 }
@@ -38,6 +38,10 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+nav {
+    padding-top: 20px;
 }
 
 .footer-nav ul {
@@ -96,7 +100,7 @@ ul {
     padding-top: 80px;
 }
 
-#footer-content {
+.footer-nav-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
